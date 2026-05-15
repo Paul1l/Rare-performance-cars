@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Curated sourcing of rare enhanced performance cars across Europe: G-Power-style BMW builds, Brabus Mercedes-AMG, Novitec Ferrari, ABT Audi and more." />
+  <title>Apex Select — Rare Enhanced Performance Cars in Europe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="header" data-header>
+    <a class="logo" href="#top" aria-label="Apex Select home">
+      <span class="logo__mark">A</span>
+      <span>Apex Select</span>
+    </a>
+
+    <nav class="nav" data-nav>
+      <a href="#inventory">Inventory</a>
+      <a href="#process">Process</a>
+      <a href="#standards">Standards</a>
+      <a href="#contact">Request</a>
+    </nav>
+
+    <button class="menu" data-menu aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero__content reveal">
+        <p class="eyebrow">Europe-wide performance car sourcing</p>
+        <h1>Rare enhanced cars for drivers who want something beyond factory spec.</h1>
+        <p class="hero__lead">We source verified high-performance builds from trusted European tuners and private collections — from BMW G-Power-style projects to Brabus AMG, ABT Audi, Novitec Ferrari and bespoke Porsche builds.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#contact">Find my build</a>
+          <a class="btn btn--ghost" href="#inventory">Explore cars</a>
+        </div>
+        <div class="hero__stats" aria-label="Company highlights">
+          <div><strong>17</strong><span>EU markets covered</span></div>
+          <div><strong>72h</strong><span>first shortlist</span></div>
+          <div><strong>0</strong><span>cars listed without checks</span></div>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal" aria-label="Featured performance car visual">
+        <div class="orb orb--one"></div>
+        <div class="orb orb--two"></div>
+        <div class="car-card car-card--hero">
+          <div class="car-card__image gradient-bmw"></div>
+          <div class="car-card__body">
+            <div>
+              <p class="tag">Featured lead</p>
+              <h3>BMW M8 Competition — 820 HP build</h3>
+            </div>
+            <p>Carbon aero, forged wheels, ECU upgrade, upgraded exhaust, full documentation.</p>
+            <div class="specs">
+              <span>Germany</span><span>2023</span><span>8,900 km</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brands section reveal" aria-label="Examples of tuner categories">
+      <span>BMW G-Power style</span>
+      <span>Brabus AMG</span>
+      <span>Novitec Ferrari</span>
+      <span>ABT Audi</span>
+      <span>TechArt Porsche</span>
+      <span>Mansory-grade builds</span>
+    </section>
+
+    <section class="section split reveal" id="standards">
+      <div>
+        <p class="eyebrow">Not just rare. Properly built.</p>
+        <h2>We focus on enhanced cars with traceable upgrades, clean history and serious execution.</h2>
+      </div>
+      <p>Our selection is built around modern performance cars that have been professionally upgraded: engine tuning, aero packages, carbon parts, forged wheels, exhaust systems, suspension, interiors and limited tuner editions. Each lead is screened before it reaches your shortlist.</p>
+    </section>
+
+    <section class="inventory section" id="inventory">
+      <div class="section__head reveal">
+        <div>
+          <p class="eyebrow">Curated opportunities</p>
+          <h2>Performance builds currently on our radar.</h2>
+        </div>
+        <p>Use the filters to explore the type of car you want us to source.</p>
+      </div>
+
+      <div class="filters reveal" role="group" aria-label="Inventory filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="bmw">BMW</button>
+        <button class="filter" data-filter="amg">AMG</button>
+        <button class="filter" data-filter="porsche">Porsche</button>
+        <button class="filter" data-filter="supercar">Supercar</button>
+      </div>
+
+      <div class="grid cards" data-cards>
+        <article class="car-card reveal" data-category="bmw">
+          <div class="car-card__image gradient-bmw"><span>820 HP</span></div>
+          <div class="car-card__body">
+            <p class="tag">BMW / G-Power-style</p>
+            <h3>M8 Competition Carbon Build</h3>
+            <p>High-output V8 tune, carbon aero, forged wheels, valve exhaust and warranty-backed inspection.</p>
+            <div class="specs"><span>Germany</span><span>2023</span><span>€189k est.</span></div>
+          </div>
+        </article>
+
+        <article class="car-card reveal" data-category="amg">
+          <div class="car-card__image gradient-amg"><span>900 HP</span></div>
+          <div class="car-card__body">
+            <p class="tag">Mercedes-AMG / Brabus-grade</p>
+            <h3>GT 63 S Widebody Edition</h3>
+            <p>Widebody conversion, ECU package, interior trim, carbon details and documented service chain.</p>
+            <div class="specs"><span>Monaco</span><span>2022</span><span>€265k est.</span></div>
+          </div>
+        </article>
+
+        <article class="car-card reveal" data-category="porsche">
+          <div class="car-card__image gradient-porsche"><span>720 HP</span></div>
+          <div class="car-card__body">
+            <p class="tag">Porsche / TechArt-style</p>
+            <h3>911 Turbo S Aero Performance</h3>
+            <p>Carbon aero kit, sports suspension, custom wheels, tuned exhaust and paint protection.</p>
+            <div class="specs"><span>Switzerland</span><span>2024</span><span>€312k est.</span></div>
+          </div>
+        </article>
+
+        <article class="car-card reveal" data-category="supercar">
+          <div class="car-card__image gradient-ferrari"><span>Limited</span></div>
+          <div class="car-card__body">
+            <p class="tag">Ferrari / Novitec-style</p>
+            <h3>F8 Tributo Carbon Package</h3>
+            <p>Carbon exterior package, exhaust upgrade, lowering kit, forged wheels and low-mileage ownership.</p>
+            <div class="specs"><span>Italy</span><span>2021</span><span>POA</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="process section" id="process">
+      <div class="section__head reveal">
+        <div>
+          <p class="eyebrow">How it works</p>
+          <h2>From brief to delivery without guesswork.</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <article class="step reveal"><span>01</span><h3>Define the target</h3><p>Brand, tuner direction, horsepower range, budget, country preference and acceptable modifications.</p></article>
+        <article class="step reveal"><span>02</span><h3>Verify the build</h3><p>We check documentation, service records, upgrade invoices, accident history and seller credibility.</p></article>
+        <article class="step reveal"><span>03</span><h3>Inspect and negotiate</h3><p>Independent inspection, paint readings, diagnostics, condition report and price negotiation.</p></article>
+        <article class="step reveal"><span>04</span><h3>Deliver in Europe</h3><p>Transport, export support, registration guidance and handover coordination.</p></article>
+      </div>
+    </section>
+
+    <section class="cta section reveal">
+      <div>
+        <p class="eyebrow">Private sourcing</p>
+        <h2>Your next car should not look like everyone else's.</h2>
+        <p>Tell us what you want built, tuned or found. We will return a focused shortlist of verified options across Europe.</p>
+      </div>
+      <a class="btn btn--primary" href="#contact">Start request</a>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact__panel reveal">
+        <div>
+          <p class="eyebrow">Request a shortlist</p>
+          <h2>Describe your ideal performance build.</h2>
+          <p>Share your target model, budget, preferred tuner style and delivery country. This demo form validates input in Vanilla JS.</p>
+        </div>
+        <form class="form" data-form novalidate>
+          <label>
+            Full name
+            <input type="text" name="name" placeholder="Alex Morgan" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="alex@example.com" required />
+          </label>
+          <label>
+            Target build
+            <select name="build" required>
+              <option value="">Choose a category</option>
+              <option>BMW performance build</option>
+              <option>AMG / Brabus-grade build</option>
+              <option>Porsche / TechArt-style build</option>
+              <option>Supercar tuner package</option>
+              <option>Something bespoke</option>
+            </select>
+          </label>
+          <label>
+            Budget range
+            <input type="text" name="budget" placeholder="€150k — €350k" required />
+          </label>
+          <label class="form__wide">
+            Notes
+            <textarea name="notes" rows="4" placeholder="Example: BMW M5 CS, 750+ HP, carbon package, Germany or Switzerland preferred"></textarea>
+          </label>
+          <button class="btn btn--primary form__wide" type="submit">Send request</button>
+          <p class="form__message" data-message aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Apex Select. Independent rare performance car sourcing.</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
